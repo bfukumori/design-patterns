@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25db7936-ec79-4cd9-b12d-594adcda647e" name="Changes" comment="add Singleton Pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/prototype/Button.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/prototype/ButtonFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/prototype/ButtonRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/prototype/Test.java" afterDir="false" />
+    <list default="true" id="25db7936-ec79-4cd9-b12d-594adcda647e" name="Changes" comment="add Prototype Pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/proxy/IUserProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/proxy/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/proxy/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/proxy/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/proxy/UserRepositoryProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/proxy/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,46 +21,46 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2htgNidU6hsZnNPWpxlfa8Kj7cI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Person.executor": "Run",
-    "Application.PersonTest.executor": "Run",
-    "Application.Test.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/Bruno/Downloads/ada/DesignPatterns/src/main/java/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Person.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PersonTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Bruno/Downloads/ada/DesignPatterns/src/main/java/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="br.com.designpatterns.prototype" />
@@ -83,7 +85,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718418752896</updated>
-      <workItem from="1718418754045" duration="10885000" />
+      <workItem from="1718418754045" duration="11540000" />
+      <workItem from="1718452964157" duration="3925000" />
     </task>
     <task id="LOCAL-00001" summary="Add Builder Pattern">
       <option name="closed" value="true" />
@@ -125,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718427649816</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add Prototype Pattern">
+      <option name="closed" value="true" />
+      <created>1718430182786</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1718430182786</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +147,7 @@
     <MESSAGE value="add Builder Pattern and Lombok example" />
     <MESSAGE value="add Factory Pattern" />
     <MESSAGE value="add Singleton Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Singleton Pattern" />
+    <MESSAGE value="add Prototype Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Prototype Pattern" />
   </component>
 </project>
