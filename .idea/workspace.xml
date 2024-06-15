@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25db7936-ec79-4cd9-b12d-594adcda647e" name="Changes" comment="add Factory Pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/singleton/Calendar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/singleton/CalendarSingletonEager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/singleton/CalendarSingletonEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/singleton/CalendarSingletonLazy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/singleton/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/singleton/WeekDays.java" afterDir="false" />
+    <list default="true" id="25db7936-ec79-4cd9-b12d-594adcda647e" name="Changes" comment="add Singleton Pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/prototype/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/prototype/ButtonFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/prototype/ButtonRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/prototype/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -62,6 +60,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.com.designpatterns.prototype" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="br.com.designpatterns.singleton" />
     </key>
@@ -82,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718418752896</updated>
-      <workItem from="1718418754045" duration="8664000" />
+      <workItem from="1718418754045" duration="10885000" />
     </task>
     <task id="LOCAL-00001" summary="Add Builder Pattern">
       <option name="closed" value="true" />
@@ -116,7 +117,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718422973203</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add Singleton Pattern">
+      <option name="closed" value="true" />
+      <created>1718427649816</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1718427649816</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +135,7 @@
     <MESSAGE value="Add Builder Pattern" />
     <MESSAGE value="add Builder Pattern and Lombok example" />
     <MESSAGE value="add Factory Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Factory Pattern" />
+    <MESSAGE value="add Singleton Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Singleton Pattern" />
   </component>
 </project>
