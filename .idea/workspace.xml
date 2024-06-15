@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25db7936-ec79-4cd9-b12d-594adcda647e" name="Changes" comment="add Builder Pattern and Lombok example">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/factory/DigitalProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/factory/PhysicalProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/factory/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/factory/ProductFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/factory/ProductType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/factory/Test.java" afterDir="false" />
+    <list default="true" id="25db7936-ec79-4cd9-b12d-594adcda647e" name="Changes" comment="add Factory Pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/singleton/Calendar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/singleton/CalendarSingletonEager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/singleton/CalendarSingletonEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/singleton/CalendarSingletonLazy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/singleton/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/singleton/WeekDays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,9 +21,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -61,6 +61,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.designpatterns.singleton" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -77,7 +82,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718418752896</updated>
-      <workItem from="1718418754045" duration="4012000" />
+      <workItem from="1718418754045" duration="8664000" />
     </task>
     <task id="LOCAL-00001" summary="Add Builder Pattern">
       <option name="closed" value="true" />
@@ -103,7 +108,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718420844059</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add Factory Pattern">
+      <option name="closed" value="true" />
+      <created>1718422973203</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718422973203</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +125,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add Builder Pattern" />
     <MESSAGE value="add Builder Pattern and Lombok example" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Builder Pattern and Lombok example" />
+    <MESSAGE value="add Factory Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Factory Pattern" />
   </component>
 </project>
