@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25db7936-ec79-4cd9-b12d-594adcda647e" name="Changes" comment="add Proxy Pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/adapter/ClientFinancialOperationsJar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/adapter/ClientFinancialOperationsJarAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/adapter/FinancialOperationsJar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/adapter/FinancialOperationsJarAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/adapter/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/adapter/TestAdapter.java" afterDir="false" />
+    <list default="true" id="25db7936-ec79-4cd9-b12d-594adcda647e" name="Changes" comment="add Adapter Pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/strategy/ContractType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/strategy/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/strategy/ISalaryReadjustmentCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/strategy/SalaryReadjustmentCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/strategy/SalaryReadjustmentCalculatorCLT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/strategy/SalaryReadjustmentCalculatorPJ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/strategy/SalaryReadjustmentCalculatorStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/strategy/SalaryReadjustmentCalculatorTRAINEE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/strategy/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/strategy/TestStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +49,7 @@
     "Application.PersonTest.executor": "Run",
     "Application.Test.executor": "Run",
     "Application.TestAdapter.executor": "Run",
+    "Application.TestStrategy.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
@@ -67,6 +72,7 @@
       <recent name="br.com.designpatterns.prototype" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.designpatterns.strategy" />
       <recent name="br.com.designpatterns.adapter" />
       <recent name="br.com.designpatterns.singleton" />
     </key>
@@ -89,7 +95,7 @@
       <updated>1718418752896</updated>
       <workItem from="1718418754045" duration="11540000" />
       <workItem from="1718452964157" duration="3947000" />
-      <workItem from="1718544062019" duration="2409000" />
+      <workItem from="1718544062019" duration="5143000" />
     </task>
     <task id="LOCAL-00001" summary="Add Builder Pattern">
       <option name="closed" value="true" />
@@ -147,7 +153,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718458972784</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add Adapter Pattern">
+      <option name="closed" value="true" />
+      <created>1718546736242</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1718546736242</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +174,7 @@
     <MESSAGE value="add Singleton Pattern" />
     <MESSAGE value="add Prototype Pattern" />
     <MESSAGE value="add Proxy Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Proxy Pattern" />
+    <MESSAGE value="add Adapter Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Adapter Pattern" />
   </component>
 </project>
