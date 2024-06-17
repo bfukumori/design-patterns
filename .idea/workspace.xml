@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25db7936-ec79-4cd9-b12d-594adcda647e" name="Changes" comment="add Strategy Pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/chain_of_responsibility/Brand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/chain_of_responsibility/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/chain_of_responsibility/CarDiscount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/chain_of_responsibility/CarSaleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/chain_of_responsibility/CarSaleServiceChainOfResponsability.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/chain_of_responsibility/CardDiscountFIAT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/chain_of_responsibility/CardDiscountFORD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/chain_of_responsibility/CardDiscountValueOverOneHundredThousand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/chain_of_responsibility/NoDiscount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/chain_of_responsibility/Test.java" afterDir="false" />
+    <list default="true" id="25db7936-ec79-4cd9-b12d-594adcda647e" name="Changes" comment="add Chain of Responsibility Pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/template_method/CommonVehicleRepairService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/template_method/CommonVehicleRepairServiceWithTemplateMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/template_method/LuxuryVehicleRepairService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/template_method/LuxuryVehicleRepairServiceWithTemplateMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/template_method/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/template_method/VehicleRepairService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/designpatterns/template_method/VehicleToRepair.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,6 +69,7 @@
       <recent name="br.com.designpatterns.prototype" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.designpatterns.template_method" />
       <recent name="br.com.designpatterns.chain_of_responsibility" />
       <recent name="br.com.designpatterns.strategy" />
       <recent name="br.com.designpatterns.adapter" />
@@ -96,7 +94,7 @@
       <updated>1718418752896</updated>
       <workItem from="1718418754045" duration="11540000" />
       <workItem from="1718452964157" duration="3947000" />
-      <workItem from="1718544062019" duration="8202000" />
+      <workItem from="1718544062019" duration="10777000" />
     </task>
     <task id="LOCAL-00001" summary="Add Builder Pattern">
       <option name="closed" value="true" />
@@ -170,7 +168,31 @@
       <option name="project" value="LOCAL" />
       <updated>1718549592250</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add Strategy Pattern">
+      <option name="closed" value="true" />
+      <created>1718553870948</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1718553870948</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add Chain of Responsibility Pattern">
+      <option name="closed" value="true" />
+      <created>1718553901570</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1718553901571</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add Chain of Responsibility Pattern">
+      <option name="closed" value="true" />
+      <created>1718553934823</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1718553934823</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +207,7 @@
     <MESSAGE value="add Proxy Pattern" />
     <MESSAGE value="add Adapter Pattern" />
     <MESSAGE value="add Strategy Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Strategy Pattern" />
+    <MESSAGE value="add Chain of Responsibility Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Chain of Responsibility Pattern" />
   </component>
 </project>
